@@ -20,3 +20,8 @@ CREATE VOLUME IF NOT EXISTS mobility.ops.checkpoints
 SHOW SCHEMAS IN mobility;
 SHOW VOLUMES IN mobility.landing;
 SHOW VOLUMES IN mobility.ops;
+
+
+LIST '/Volumes/mobility/landing/raw/yellow/';
+LIST '/Volumes/mobility/landing/raw/green/';
+LIST '/Volumes/mobility/landing/raw/reference/';
